@@ -1,0 +1,403 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+/* fonts used */
+@font-face {
+  font-family: Robota;
+  src: url(Robota-NonCommercial.otf);
+}
+
+@font-face {
+  font-family: Quantify;
+  src: url(Quantify.ttf);
+}
+
+@font-face {
+  font-family: Paloseco-Light;
+  src: url(Paloseco-Light.ttf);
+}
+
+@font-face {
+  font-family: Paloseco-Medium;
+  src: url(Paloseco-Medium.ttf);
+}
+
+@font-face {
+  font-family: Paloseco-MediumItalic;
+  src: url(Paloseco-MediumItalic.ttf);
+}
+
+#container {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+}
+
+/* first section */
+/* Parallax Scrolling */
+#main-cover {
+  /* height of image */
+  height: 100%;
+  position: relative;
+  /* link to image */
+  background-image: url("imitation-game.jpg");
+  /* fixing image to the background (part of parallax) */
+  background-attachment: fixed;
+  /* making the image appear only once */
+  background-repeat: no-repeat;
+  /* centering the image */
+  background-position: center;
+  /* making sure the image covers the whole background */
+  background-size: cover;
+}
+
+#sidebar {
+  width: 20%;
+  color: white;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+#current-page {
+  font-family: Quantify;
+  font-size: 36px;
+  margin-bottom: 15px;
+  padding-top: 0px;
+}
+
+.nav {
+  font-family: Robota;
+  font-size: 28px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#heading {
+  text-align: center;
+  width: 100%;
+  color: #d59b2a;
+  position: absolute;
+  font-family: Quantify;
+  font-size: 52px;
+  padding-top: 15%;
+}
+
+/* second section */
+#trailer {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 750px;
+  width: 100%;
+  display: block;
+}
+
+iframe {
+  right: 0;
+  padding-top: 50px;
+  border: 0;
+  width: 100%;
+}
+
+#video {
+  display: block;
+  width: 100%;
+  border: 0;
+}
+
+/* third section */
+#reviews {
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+}
+
+#sideways {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  top: 0px;
+  position: relative;
+}
+
+#sideways-text {
+  position: relative;
+  transform: rotate(-90deg);
+  font-family: Robota;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 52px;
+  top: 20%;
+  text-align: center;
+}
+
+#reviews1-5 {
+  width: 70%;
+  display: inline-block;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  padding-right: 20px;
+  border: 0px;
+  top: 40%;
+}
+
+#reviews1-3 {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.reviews1-3 {
+  color: white;
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#reviews4-5 {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.reviews4-5 {
+  color: white;
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.stars {
+  width: 100%;
+}
+
+.quote {
+  font-family: Paloseco-Light;
+  font-size: 14px;
+  color: #f2f2f2;
+}
+
+.critic {
+  font-family: Paloseco-Medium;
+  margin-bottom: 2px;
+  color: #edece8;
+}
+
+.publication {
+  font-family: Paloseco-MediumItalic;
+  margin-top: 2px;
+  color: #edece8;
+}
+
+/* fourth section */
+/* Parallax Scrolling */
+#cast-picture {
+  /* height of the image (didn't it to span the whole height) */
+  height: 400px;
+  position: relative;
+  /* link to the image */
+  background-image: url("cast.jpg");
+  /* fixing image to the background (part of parallax) */
+  background-attachment: fixed;
+  /* making the image appear only once */
+  background-repeat: no-repeat;
+  /* centering the image */
+  background-position: center;
+  /* making sure the image covers the whole background */
+  background-size: cover;
+}
+
+#heading-2 {
+  text-align: center;
+  width: 100%;
+  color: #d59b2a;
+  position: absolute;
+  font-family: Quantify;
+  font-size: 144px;
+}
+
+#cast{
+  position: relative;
+  display: inline-block;
+  height: 1000px;
+  width: 100%;
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.name {
+  color: #edece8;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Robota;
+  font-size: 36px;
+}
+
+.character {
+  color: #edece8;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Paloseco-MediumItalic;
+  padding-top: 5px;
+  font-size: 24px;
+}
+
+.description {
+  color: #edece8;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Paloseco-Light;
+  font-size: 16px;
+  padding-top: 12px;
+}
+
+.photo {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#benedict {
+  width: 100%;
+  display: inline-block;
+}
+
+#b-picture {
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  padding: 20px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+#b-info {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+#keira {
+  width: 100%;
+  display: inline-block;
+}
+
+#k-picture {
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+#k-info {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+#allen {
+  width: 100%;
+  display: inline-block;
+}
+
+#a-picture {
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+#a-info {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+#rory {
+  width: 100%;
+  display: inline-block;
+}
+
+#r-picture {
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  padding: 20px;
+  padding-left: 50px;
+}
+
+#r-info {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
+
+#mark {
+  width: 100%;
+  display: inline-block;
+}
+
+#m-picture {
+  width: 40%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: inline-block;
+  padding: 20px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+#m-info {
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+}
